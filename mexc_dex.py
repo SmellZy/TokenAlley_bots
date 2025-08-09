@@ -13,8 +13,6 @@ logging.basicConfig(
 )
 
 # --- CONFIG ---
-TELEGRAM_TOKEN = '7577176424:AAHN-BjxQD-4U-jgcUVb-q1p5SPV9wlPJTU'
-TELEGRAM_CHAT_ID = '1002699499900'
 SPREAD_THRESHOLD = 3.0  # %
 DEX_PAIRS_CACHE = {}  # кеш DexScreener відповідей
 

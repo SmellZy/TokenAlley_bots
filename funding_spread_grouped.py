@@ -3,10 +3,12 @@ import aiohttp
 import json
 import os
 import time
+from dotenv import load_dotenv
 
 # ==== Налаштування ====
-TELEGRAM_TOKEN = "8177239083:AAHgb9Ehhrm1dFU1ynCkfQs82pQgDLedjOU"  # встав свій токен
-TELEGRAM_CHAT_ID = "-1002699499900" 
+load_dotenv()
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 FUNDING_THRESHOLD = 0.3  # %
 CHECK_INTERVAL = 120  # кожні 2 хвилини
 SYMBOLS_DIR = "symbols_cache"
