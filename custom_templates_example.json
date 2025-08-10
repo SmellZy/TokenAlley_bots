@@ -1,0 +1,10 @@
+{
+  "level_1_header": "📈 ФАНДИНГИ >= {threshold}% 📈",
+  "level_2_header": "🚨 КРИТИЧНІ ФАНДИНГИ >= {threshold}% 🚨",
+      "ticker_box": "┌────────────────────────────────────────────────┐\n #{ticker}/USDT",
+  "ticker_footer": "└────────────────────────────────────────────────┘",
+      "exchange_line": "│ {exchange} {ticker}/USDT = {sign}{rate:.4f}% ({cycle_hours}, {payout_time}) │",
+  "no_data_message": "✅ Наразі немає фандінгів для відправки.",
+  "startup_message": "🤖 Бот запущено!\n📊 Рівень 1: >= {level1}%\n📊 Рівень 2: >= {level2}%\n⏰ Збір даних кожні {interval} секунд",
+  "stats_message": "📊 Статистика:\n🔍 Знайдено {total} тікерів вище {threshold}%\n📈 Рівень 1: {count1} тікерів\n🚨 Рівень 2: {count2} тікерів"
+}
